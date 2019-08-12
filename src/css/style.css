@@ -168,6 +168,11 @@ a.navbar-brand i {
 	position: relative;
 }
 
+.text-white,
+a.text-white i {
+	color: white;
+}
+
 .inner-banner {
     background: url(../images/bg.jpg) 0px;
     -webkit-background-size: cover;
@@ -180,7 +185,7 @@ a.navbar-brand i {
 }
 
 .banner-text {
-	padding: 20vw 0 14vw;
+	padding: 6vw 0 28vw;
 	box-sizing: border-box;
 }
 
@@ -191,9 +196,11 @@ a.navbar-brand i {
 }
 
 .slider-info h3 {
-	font-size: 2.5em;
+	font-size: 2.1em;
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
+	background-color: rgba(2,2,2, 0.5);
+	padding: 0.5em;
 	font-weight: 600;
 }
 
